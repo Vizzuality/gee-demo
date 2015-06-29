@@ -11,11 +11,8 @@ Download Hello World
 
 Download the Earth Engine API repository from GitHub:
 
-    git clone https://github.com/google/earthengine-api.git
+    git clone https://github.com/Vizzuality/gee-demo.git
 
-Navigate to the Hello World example code:
-
-    cd ./python/examples/AppEngine/hello-world/
 
 
 Create your own project
