@@ -1,4 +1,4 @@
-Hello World EE Demo App
+Climate analisis Demo App
 =======================
 
 This example shows how to build a simple Google App Engine web application that
