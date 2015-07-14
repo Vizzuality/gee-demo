@@ -34,8 +34,8 @@ class MainPage(webapp2.RequestHandler):
     region = ee.Geometry.Polygon([[-64.51171875, -5.090944175033373], [-58.359375, -7.18810087117902],[-58.18359375, -2.1088986592431254]]);
 
     def area_analisis(region):
-        IMAGE_COLLECTION_ID = 'GME/layers/12520323906563193292-05039038523903420493'
-        image =ee.ImageCollection(IMAGE_COLLECTION_ID).mosaic()
+        IMAGE_COLLECTION_ID = 'WHRC/biomass/tropical'
+        image =ee.Image(IMAGE_COLLECTION_ID)
         #image = images.mosaic()
         #mapid = image.getMapId({'min': 0, 'max': 1000})
         reduce_args = {
